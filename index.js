@@ -118,7 +118,8 @@ Monitor.prototype.start = function() {
       gid: self.gid,
       stdio: self.stdio,
       silent: self.silent,
-      windowsVerbatimArguments: self.windowsVerbatimArguments
+      windowsVerbatimArguments: self.windowsVerbatimArguments,
+      shell: true
     })
 
     self.started = new Date()
